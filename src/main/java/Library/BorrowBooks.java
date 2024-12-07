@@ -7,7 +7,7 @@ public class BorrowBooks extends javax.swing.JFrame {
          */
         public BorrowBooks() {
                 initComponents();
-                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("Library.png")).getImage());
+                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Library.png")).getImage());
                 if (java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 768
                                 && java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 1366) {
                         this.setSize(1360, 720);
@@ -126,7 +126,7 @@ public class BorrowBooks extends javax.swing.JFrame {
 
                 jTextField10.setBackground(new java.awt.Color(153, 153, 153));
 
-                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Check_Mark_New.png"))); // NOI18N
+                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Check_Mark_New.png"))); // NOI18N
                 jButton1.setContentAreaFilled(false);
                 jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -596,9 +596,9 @@ public class BorrowBooks extends javax.swing.JFrame {
 
                 jTabbedPane1.addTab("Return Book", jPanel4);
 
-                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/SLIIT_Logo_Crest.png"))); // NOI18N
+                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/SLIIT_Logo_Crest.png"))); // NOI18N
 
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Home.png"))); // NOI18N
+                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Home.png"))); // NOI18N
                 jButton2.setContentAreaFilled(false);
                 jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -615,7 +615,7 @@ public class BorrowBooks extends javax.swing.JFrame {
                         }
                 });
 
-                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Logout.png"))); // NOI18N
+                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Logout.png"))); // NOI18N
                 jButton3.setContentAreaFilled(false);
                 jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {

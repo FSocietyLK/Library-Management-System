@@ -7,7 +7,7 @@ public class PasswordChange extends javax.swing.JFrame {
          */
         public PasswordChange() {
                 initComponents();
-                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("Library.png")).getImage());
+                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Library.png")).getImage());
                 if (java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 768
                                 && java.awt.Toolkit.getDefaultToolkit().getScreenSize().width == 1366) {
                         this.setSize(1360, 720);
@@ -67,7 +67,7 @@ public class PasswordChange extends javax.swing.JFrame {
                 jLabel3.setForeground(new java.awt.Color(255, 255, 255));
                 jLabel3.setText("Confirm New Password");
 
-                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Ok.png"))); // NOI18N
+                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Ok.png"))); // NOI18N
                 jButton1.setContentAreaFilled(false);
                 jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -188,7 +188,7 @@ public class PasswordChange extends javax.swing.JFrame {
                 jLabel6.setForeground(new java.awt.Color(255, 255, 255));
                 jLabel6.setText("Enter Current Password");
 
-                jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Ok.png"))); // NOI18N
+                jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Ok.png"))); // NOI18N
                 jButton4.setContentAreaFilled(false);
                 jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -317,9 +317,9 @@ public class PasswordChange extends javax.swing.JFrame {
                                                                                                 Short.MAX_VALUE))
                                                                 .addContainerGap()));
 
-                jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/SLIIT_Logo_Crest.png"))); // NOI18N
+                jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/SLIIT_Logo_Crest.png"))); // NOI18N
 
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Home.png"))); // NOI18N
+                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Home.png"))); // NOI18N
                 jButton2.setContentAreaFilled(false);
                 jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -336,7 +336,7 @@ public class PasswordChange extends javax.swing.JFrame {
                         }
                 });
 
-                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Logout.png"))); // NOI18N
+                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Logout.png"))); // NOI18N
                 jButton3.setContentAreaFilled(false);
                 jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {

@@ -7,7 +7,7 @@ public class GenerateReport extends javax.swing.JFrame {
          */
         public GenerateReport() {
                 initComponents();
-                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("Library.png")).getImage());
+                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Library.png")).getImage());
                 if (java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 768
                                 && java.awt.Toolkit.getDefaultToolkit().getScreenSize().width == 1366) {
                         this.setSize(1360, 720);
@@ -522,9 +522,9 @@ public class GenerateReport extends javax.swing.JFrame {
 
                 jTabbedPane1.addTab("Lend History", jPanel4);
 
-                jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/SLIIT_Logo_Crest.png"))); // NOI18N
+                jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/SLIIT_Logo_Crest.png"))); // NOI18N
 
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Home.png"))); // NOI18N
+                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Home.png"))); // NOI18N
                 jButton2.setContentAreaFilled(false);
                 jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -541,7 +541,7 @@ public class GenerateReport extends javax.swing.JFrame {
                         }
                 });
 
-                jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Logout.png"))); // NOI18N
+                jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Logout.png"))); // NOI18N
                 jButton5.setContentAreaFilled(false);
                 jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -800,7 +800,7 @@ public class GenerateReport extends javax.swing.JFrame {
                 final java.awt.Point location = this.getLocation();
                 java.awt.EventQueue.invokeLater(new Runnable() {
                         public void run() {
-                                Report report = new Report("D:\\Projects\\Library\\src\\Library\\Students_All.jasper");
+                                Report report = new Report("D:\\Projects\\Library\\src\\main\\resources\\Library\\Students_All.jasper");
                                 report.setLocation(location);
                                 report.setVisible(true);
                                 report.getClass();
@@ -816,7 +816,7 @@ public class GenerateReport extends javax.swing.JFrame {
                                 param.put("year", Integer.parseInt(jComboBox4.getSelectedItem().toString()));
                                 param.put("semester", Integer.parseInt(jComboBox3.getSelectedItem().toString()));
                                 Report report = new Report(
-                                                "D:\\Projects\\Library\\src\\Library\\Students_Selected.jasper", param);
+                                                "D:\\Projects\\Library\\src\\main\\resources\\Library\\Students_Selected.jasper", param);
                                 report.setLocation(location);
                                 report.setVisible(true);
                                 report.getClass();
@@ -832,7 +832,7 @@ public class GenerateReport extends javax.swing.JFrame {
                                         java.util.HashMap param = new java.util.HashMap();
                                         param.put("isbn", jTextField1.getText());
                                         Report report = new Report(
-                                                        "D:\\Projects\\Library\\src\\Library\\Book_Selected_ISBN.jasper",
+                                                        "D:\\Projects\\Library\\src\\main\\resources\\Library\\Book_Selected_ISBN.jasper",
                                                         param);
                                         report.setLocation(location);
                                         report.setVisible(true);
@@ -847,7 +847,7 @@ public class GenerateReport extends javax.swing.JFrame {
                                         java.util.HashMap param = new java.util.HashMap();
                                         param.put("bookno", jTextField2.getText());
                                         Report report = new Report(
-                                                        "D:\\Projects\\Library\\src\\Library\\Book_Selected_Bookself_No.jasper",
+                                                        "D:\\Projects\\Library\\src\\main\\resources\\Library\\Book_Selected_Bookself_No.jasper",
                                                         param);
                                         report.setLocation(location);
                                         report.setVisible(true);
@@ -866,7 +866,7 @@ public class GenerateReport extends javax.swing.JFrame {
                 final java.awt.Point location = this.getLocation();
                 java.awt.EventQueue.invokeLater(new Runnable() {
                         public void run() {
-                                Report report = new Report("D:\\Projects\\Library\\src\\Library\\Books_All.jasper");
+                                Report report = new Report("D:\\Projects\\Library\\src\\main\\resources\\Library\\Books_All.jasper");
                                 report.setLocation(location);
                                 report.setVisible(true);
                                 report.getClass();
@@ -886,7 +886,7 @@ public class GenerateReport extends javax.swing.JFrame {
                                                 + jComboBox7.getSelectedItem().toString() + "-"
                                                 + jComboBox6.getSelectedItem().toString());
                                 Report report = new Report(
-                                                "D:\\Projects\\Library\\src\\Library\\Selected_Lend_History.jasper",
+                                                "D:\\Projects\\Library\\src\\main\\resources\\Library\\Selected_Lend_History.jasper",
                                                 param);
                                 report.setLocation(location);
                                 report.setVisible(true);
@@ -900,7 +900,7 @@ public class GenerateReport extends javax.swing.JFrame {
                 java.awt.EventQueue.invokeLater(new Runnable() {
                         public void run() {
                                 Report report = new Report(
-                                                "D:\\Projects\\Library\\src\\Library\\Full_Lend_History.jasper");
+                                                "D:\\Projects\\Library\\src\\main\\resources\\Library\\Full_Lend_History.jasper");
                                 report.setLocation(location);
                                 report.setVisible(true);
                                 report.getClass();

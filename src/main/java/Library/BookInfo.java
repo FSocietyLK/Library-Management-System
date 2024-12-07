@@ -7,7 +7,7 @@ public class BookInfo extends javax.swing.JFrame {
          */
         public BookInfo() {
                 initComponents();
-                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("Library.png")).getImage());
+                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Library.png")).getImage());
                 if (java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 768
                                 && java.awt.Toolkit.getDefaultToolkit().getScreenSize().width == 1366) {
                         this.setSize(1360, 720);
@@ -158,7 +158,7 @@ public class BookInfo extends javax.swing.JFrame {
                 jTextField9.setBackground(new java.awt.Color(87, 87, 87));
                 jTextField9.setForeground(new java.awt.Color(204, 204, 204));
 
-                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Add.png"))); // NOI18N
+                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Add.png"))); // NOI18N
                 jButton1.setContentAreaFilled(false);
                 jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -467,7 +467,7 @@ public class BookInfo extends javax.swing.JFrame {
                         }
                 });
 
-                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Save.png"))); // NOI18N
+                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Save.png"))); // NOI18N
                 jButton3.setContentAreaFilled(false);
                 jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -676,9 +676,9 @@ public class BookInfo extends javax.swing.JFrame {
 
                 jTabbedPane1.addTab("Edit Book Information", jPanel3);
 
-                jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/SLIIT_Logo_Crest.png"))); // NOI18N
+                jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/SLIIT_Logo_Crest.png"))); // NOI18N
 
-                jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Home.png"))); // NOI18N
+                jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Home.png"))); // NOI18N
                 jButton4.setContentAreaFilled(false);
                 jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -695,7 +695,7 @@ public class BookInfo extends javax.swing.JFrame {
                         }
                 });
 
-                jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Logout.png"))); // NOI18N
+                jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Logout.png"))); // NOI18N
                 jButton6.setContentAreaFilled(false);
                 jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {

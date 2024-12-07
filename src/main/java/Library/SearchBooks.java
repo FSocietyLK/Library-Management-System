@@ -7,7 +7,7 @@ public class SearchBooks extends javax.swing.JFrame {
          */
         public SearchBooks() {
                 initComponents();
-                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("Library.png")).getImage());
+                this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Library.png")).getImage());
                 if (java.awt.Toolkit.getDefaultToolkit().getScreenSize().height == 768
                                 && java.awt.Toolkit.getDefaultToolkit().getScreenSize().width == 1366) {
                         this.setSize(1360, 720);
@@ -464,9 +464,9 @@ public class SearchBooks extends javax.swing.JFrame {
 
                 jTabbedPane1.addTab("Search by Name", jPanel5);
 
-                jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/SLIIT_Logo_Crest.png"))); // NOI18N
+                jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/SLIIT_Logo_Crest.png"))); // NOI18N
 
-                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Home.png"))); // NOI18N
+                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Home.png"))); // NOI18N
                 jButton1.setContentAreaFilled(false);
                 jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -483,7 +483,7 @@ public class SearchBooks extends javax.swing.JFrame {
                         }
                 });
 
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library/Logout.png"))); // NOI18N
+                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/Library/Logout.png"))); // NOI18N
                 jButton2.setContentAreaFilled(false);
                 jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseEntered(java.awt.event.MouseEvent evt) {
