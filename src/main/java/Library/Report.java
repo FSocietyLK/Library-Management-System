@@ -1,5 +1,6 @@
 package Library;
 
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -33,9 +34,20 @@ public class Report extends JFrame {
         try {
             // Establish database connection
             con = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            
+            // Load .jasper file from classpath
+            /* InputStream reportStream = getClass().getClassLoader().getResourceAsStream(fileName);
+            if (reportStream == null) {
+                JOptionPane.showMessageDialog(this,
+                        "Report file not found: " + fileName,
+                        "Error",
+                        JOptionPane.ERROR_MESSAGE);
+                dispose();
+                return;
+            } */
 
             // Generate report
-            JasperPrint jp = JasperFillManager.fillReport(fileName, parameter, con);
+            JasperPrint jp = JasperFillManager.fillReport(/*reportStream*/fileName, parameter, con);
 
             // Check if report has pages
             if (jp.getPages().isEmpty()) {
